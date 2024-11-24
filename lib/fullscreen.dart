@@ -24,7 +24,7 @@ class Fullscreen extends StatelessWidget {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           content: Text("Failed to set wallpaper: $e"),
-          backgroundColor: Colors.red,
+          backgroundColor: const Color.fromARGB(225, 255, 54, 40),
         ),
       );
     }
